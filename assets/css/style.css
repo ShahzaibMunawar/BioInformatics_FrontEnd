@@ -1,0 +1,123 @@
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.contactus .glyphicon {
+    font-size: 30px;
+}
+
+/*/////////////sidebar//////////////*/
+.sidenav {
+    height: 100%;
+    width: 230px;
+    margin-top: 51px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/*newcss*/
+.sidenav a {
+    text-decoration: none;
+    color: #818181;
+}
+.sidenav ul{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+}
+.sidenav ul>li{
+    padding: 10px 20px;
+}
+.sidenav ul>li>a{
+    color: #fff;
+}
+.sidenav ul>li:not(:last-child){
+    border-bottom: 1px solid #000;
+}
+.sidenav ul>li:hover{
+   background: #000;
+}
+
+.sp-head {
+    color: #000;
+    padding: 10px 0;
+    font-weight: 300;
+}
+
+.dd {
+    padding: 7px 0 7px 10px;
+    margin: 15px 0;
+    background: #000;
+    border-radius: 4px;
+    /*    width: 152px;*/
+}
+#selected,#sub-selected,span.caret{
+    color: #fff;
+}
+a:hover, a:focus{
+    text-decoration: none;
+}
+#selected:hover{
+    text-decoration: none;
+}
+
+#sp_d_name .dropdown-menu a,
+#sp_d_name a > span {
+    font-size: 14px;
+}
+
+#sp_d_name:hover {
+    color: #333;
+}
+
+.inter-space > input {
+    margin: 10px 0px;
+}
+
+.inter-space input:first-child {
+    margin-right: 5px;
+}
+
+.navbar-form .input-group > .form-control {
+    width: 105px;
+    border-radius: 4px;
+}
+
+/*/////////////main//////////////*/
+.main {
+    margin-left: 230px;
+    /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+/*new css*/
+.box {
+    background: #fbf9fa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.075);
+}
+
+/*/////////////MQ//////////////*/
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
